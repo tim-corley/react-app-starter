@@ -8,6 +8,7 @@ $ npm install
 $ npm run start
 ```
 
-TODO: 
- - [ ] add configuration for jest
- - [ ] update index.js
+TODO:
+
+- [ ] add configuration for jest
+- [x] update index.js
