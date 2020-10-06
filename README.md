@@ -3,7 +3,8 @@
 ### Leverages Webpack & Tailwind CSS
 
 ```
-$ git clone
+$ npx degit https://github.com/tim-corley/react-app-starter.git\#master new-app-dir
+$ git init
 $ npm install
 $ npm run start
 ```
