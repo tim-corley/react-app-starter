@@ -1,11 +1,15 @@
 {
   "name": "scratch-starter-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "clone this repo to use as a base for react projects - also contains webpack & tailwindcss",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "webpack-dev-server --mode development --hot --open --public localhost:8081",
     "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tim-corley/react-app-starter"
   },
   "keywords": [],
   "author": "tcorley215@gmail.com",

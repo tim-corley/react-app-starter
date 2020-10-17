@@ -15,7 +15,19 @@ To create tunnel to expose public URL (while dev server is up - in this case at 
 ./ngrok http 8080 -host-header="localhost:8080"
 ```
 
+Docker Notes
+ - Create image from Dockerfile:
+  `sudo docker build -t react-app-starter:dev .`
+ - Create & run docker container from image (be sure to execute this from project root so that hot-reloading - via volume mounting - works):
+```
+➜  react-app-starter git:(master) ✗ sudo docker run -it --rm \
+-v ${PWD}:/app \
+-v /app/node_modules \
+-p 8081:8081 \
+-e CHOKIDAR_USEPOLLING=true \
+react-app-starter:dev
+```
+
 TODO:
 
 - [ ] add configuration for jest
-- [x] update index.js
