@@ -27,6 +27,7 @@ Docker Notes
 -e CHOKIDAR_USEPOLLING=true \
 react-app-starter:dev
 ```
+[Further Reading](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App.php)
 
 TODO:
 
